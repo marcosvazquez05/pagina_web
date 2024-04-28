@@ -4,21 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beats Corporation | Personalizados</title>
-    <link rel="shortcut icon" href="media/icons8-favicon-64.png" type="image/x-icon">
     <link rel="stylesheet" href="../css/head_and_nav.css">
+    <link rel="stylesheet" href="../css/estilos-generales.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Beats Corporation</title>
+    <link rel="shortcut icon" href="../media/icons8-favicon-64.png" type="image/x-icon">
 </head>
 
 <body>
     <header>
         <div class="logo">
             <div>
-            <a href="#" class="logo-img">
-                <img src="../media/klipartz.com.png" alt="Logo"class="logo-img">
-            </a>
+                <a href="index.html" class="logo-img">
+                    <img src="../media/klipartz.com.png" alt="Logo" class="logo-img">
+                </a>
             </div>
             <div class="logo-nombre">
-            <p>PRONTOBEATS</p>
+                <a href="index.html">ProntoBeats</a>
             </div>
         </div>
 
@@ -26,9 +30,9 @@
             <div class="nav-container">
                 <ul>
                     <div class="apartados">
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="../pages/beats-sin-copyright.html">Beats sin copyright</a></li>
-                    <li><a href="../pages/beats-personalizados.html">Beats personalizados</a></li>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="../pages/beats-sin-copyright.html">Beats sin copyright</a></li>
+                        <li><a href="../pages/beats-personalizados.html">Beats personalizados</a></li>
                     </div>
                     <!-- falta el boton mas info -->
                 </ul>
@@ -36,12 +40,11 @@
         </nav>
         <div class="registrar-boton-container">
             <div class="registrar-boton">
-                <a href="#">Inicia sesion</a>
-                <a href="#">Registrate</a>
+                <a href="iniciar-sesión.html">Inicia sesion</a>
+                <a href="iniciar-sesión.html">Registrate</a>
             </div>
         </div>
     </header>
-
     <section>
         <div>
             <h4>BEATSPRO PERSONALIZADOS</h4>
@@ -85,7 +88,12 @@
         <h4>Obten un presupuesto gratis</h4>
         <p>Envianos tus datos y en 24hs un asesor se contactara contigo para comenzar a proyectar tus ideas de forma profesional y solida. Te garantizamos tu mejor trabajo musical</p>
         <div>
-            <!-- aca hiria lo del formulario -->
+            <form action="">
+                <input type="text" name="nombre" placeholder="Nombre">
+                <input type="text" name="apellido" placeholder="Apellido">
+                <input type="email" name="email" placeholder="Correo Electronico">
+                <input type="submit">
+            </form>
         </div>
     </section>
 
