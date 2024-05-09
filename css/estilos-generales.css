@@ -13,3 +13,29 @@ font-size: 1.4em;
 p {
     font-size: 1em;
 }
+
+/* HEADER */
+header {
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo-img {
+    height: 75px;
+}
+
+header .logo {
+display: flex;
+align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav li {
+    display: flex;
+}
+
