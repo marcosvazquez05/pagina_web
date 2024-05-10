@@ -14,6 +14,10 @@ p {
     font-size: 1em;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADER */
 header {
     background-color: bisque;
@@ -36,6 +40,16 @@ nav a {
 }
 
 nav li {
-    display: flex;
+    display: inline-flex;
+    justify-content: space-between;
+    padding-right: 15px;
+}
+
+.registrar-boton-container {
+margin-right: 10px;
+}
+
+.registrar-boton-container a {
+    padding: 5px;
 }
 
