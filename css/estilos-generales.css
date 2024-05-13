@@ -30,7 +30,6 @@ header {
 .logo-img {
     height: 200px;
     padding: 10px;
-    margin
 }
 
 .logo-nombre a {
@@ -42,10 +41,9 @@ header {
     letter-spacing: 10px;
 }
 
-
 header .logo {
-display: flex;
-align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 nav a {
@@ -63,11 +61,13 @@ nav li {
     margin-right: 10px;
     font-size: 20px;
     color: #ffff;
+    padding: 5px 10px 5px 10px;
 }
 
 .registrar-boton {
     margin-right: 80px;
     font-size: 20px;
+    padding: 5px 10px 5px 10px;
 }
 
 .apartados a {
@@ -77,6 +77,7 @@ nav li {
 
 .register-boton {
     color: #ffff;
+    padding: 5px;
 }
 
 
@@ -87,7 +88,7 @@ nav li {
 
 .apartados a:hover {
     color: #A91D3A;
-    transition: color 0.5s ease;
+    transition: color 0.2s ease;
 }
 
 .logo .logo-nombre a {
@@ -96,5 +97,14 @@ nav li {
 
 .logo .logo-nombre a:hover {
     color: #A91D3A;
-    transition: color 0.5s ease;
+    transition: color 0.2s ease;
+}
+
+.boton-registro {
+    background-color: #A91D3A;
+}
+
+.boton-registro:hover {
+    background-color: #2b2a2a;
+    transition: background-color 0.5s ease;
 }

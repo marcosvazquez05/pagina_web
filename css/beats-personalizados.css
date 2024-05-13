@@ -1,0 +1,74 @@
+.pagina-general{
+    
+}
+
+
+
+.beatspro-personalizados h4{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.beatspro-personalizados p{
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+}
+
+.produccion{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #A91D3A ;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: fit-content;
+    margin-top: 30px;
+    
+}
+
+
+.mix{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #A91D3A ;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: fit-content;
+    margin-top: 30px;
+}
+
+.mastering{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #A91D3A ;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: fit-content;
+    margin-top: 30px;
+}
+
+.resultados{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid #A91D3A ;
+    padding: 10px;
+    margin: 0 auto;
+    max-width: fit-content;
+    margin-top: 30px;
+}
+
+.sellos{
+  font-family:"Roboto", sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+
+
