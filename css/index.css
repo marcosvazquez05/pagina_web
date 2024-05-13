@@ -1,0 +1,72 @@
+.seccion-banner {
+    background-image: url("../media/concierto.jpg"); /* Reemplaza con la ruta de tu imagen */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex; /* Activar flexbox */
+    align-items: center; /* Alinear verticalmente */
+    justify-content: center; /* Alinear horizontalmente */
+  }
+  
+  .contenedor-texto-ritmo {
+    display: flex; /* Activar flexbox para el contenedor de texto */
+    flex-direction: column; /* Ordenar elementos en columna */
+    align-items: center; /* Alinear horizontalmente */
+    justify-content: center; /* Alinear verticalmente */
+  }
+  
+  .contenedor-texto-ritmo h1,
+  .contenedor-texto-ritmo p,
+  .contenedor-texto-ritmo button {
+    flex: 1; /* Permitir que los elementos crezcan */
+    text-align: center; /* Centrar el texto horizontalmente */
+  }
+
+
+
+
+  
+
+/* .seccion-grabando {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around; 
+    background-color: #333; 
+    padding: 50px; 
+    text-align: center; 
+}
+
+.foto-grabando{
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.foto-grabando img {
+    width: 400px;
+    height: auto; 
+  } */
+
+.contenedor-texto-ritmo {
+    color: #fff;
+    text-align: center;
+  }
+
+h1{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.boton-registro{
+    background-color: #FF0000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
