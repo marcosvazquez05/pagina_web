@@ -63,6 +63,20 @@ p {
     margin-bottom: 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+.contenedor-texto-ritmo .boton-registro {
+  background-color: #A91D3A;
+  color: #fff;
+}
+
+.contenedor-texto-ritmo .boton-registro:hover {
+  background-color: #2b2a2a;
+  transition: background-color 0.5s ease;
+}
+
 .boton-registro{
     background-color: #FF0000;
     color: #fff;
