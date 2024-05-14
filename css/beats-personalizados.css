@@ -1,26 +1,37 @@
-.pagina-general{
-    
+.body{
+    background-color: black;
+  
 }
 
 
 
 .beatspro-personalizados h4{
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto Mono", monospace;
+    color: #A91D3A;
     font-style: normal;
-    font-size: 40px;
+    font-size: 75px;
     text-align: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    letter-spacing: 2px;
+   
 }
 
 .beatspro-personalizados p{
     font-family: "Roboto", sans-serif;
+    color: antiquewhite;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .produccion{
+
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
     text-align: center;
     border: 2px solid #A91D3A ;
@@ -34,6 +45,7 @@
 
 .mix{
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
     text-align: center;
     border: 2px solid #A91D3A ;
@@ -45,6 +57,7 @@
 
 .mastering{
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
     text-align: center;
     border: 2px solid #A91D3A ;
@@ -56,6 +69,7 @@
 
 .resultados{
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
     text-align: center;
     border: 2px solid #A91D3A ;
@@ -67,8 +81,22 @@
 
 .sellos{
   font-family:"Roboto", sans-serif;
+  color: aliceblue;
   font-size: 40px;
   text-align: center;
 }
 
 
+.produccion:hover {
+    background-color: #A91D3A;
+}
+
+.mix:hover {
+    background-color: #A91D3A;
+}
+.mastering:hover {
+    background-color: #A91D3A;
+}
+.resultados:hover {
+    background-color: #A91D3A;
+}
