@@ -17,7 +17,12 @@
    
 }
 
+
+
 .beatspro-personalizados p{
+    max-width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto;
     font-family: "Roboto", sans-serif;
     color: antiquewhite;
     font-style: italic;
@@ -33,6 +38,7 @@
     font-family: "Roboto", sans-serif;
     color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -47,6 +53,7 @@
     font-family: "Roboto", sans-serif;
     color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -59,6 +66,7 @@
     font-family: "Roboto", sans-serif;
     color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -71,6 +79,7 @@
     font-family: "Roboto", sans-serif;
     color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -80,9 +89,20 @@
 }
 
 .sellos{
+    background-image: url(../media/estudiorojo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sellos h4{  
+    text-shadow: 2px 2px 4px black;
+  margin-top: 5mm; 
+  margin-bottom: 5mm;
   font-family:"Roboto", sans-serif;
   color: aliceblue;
   font-size: 40px;
+  color: aliceblue;
   text-align: center;
 }
 
