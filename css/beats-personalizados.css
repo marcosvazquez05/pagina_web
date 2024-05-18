@@ -1,27 +1,44 @@
-.pagina-general{
-    
+.body{
+    background-color: black;
+  
 }
 
 
 
 .beatspro-personalizados h4{
 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Roboto Mono", monospace;
+    color: #A91D3A;
     font-style: normal;
-    font-size: 40px;
+    font-size: 75px;
     text-align: center;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    letter-spacing: 2px;
+   
 }
 
+
+
 .beatspro-personalizados p{
+    max-width: 1000px; 
+    margin-left: auto; 
+    margin-right: auto;
     font-family: "Roboto", sans-serif;
+    color: antiquewhite;
     font-style: italic;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .produccion{
+
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -34,7 +51,9 @@
 
 .mix{
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -45,7 +64,9 @@
 
 .mastering{
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -56,7 +77,9 @@
 
 .resultados{
     font-family: "Roboto", sans-serif;
+    color: aliceblue;
     font-size: 30px;
+    color: aliceblue;
     text-align: center;
     border: 2px solid #A91D3A ;
     padding: 10px;
@@ -66,9 +89,34 @@
 }
 
 .sellos{
+    background-image: url(../media/estudiorojo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.sellos h4{  
+    text-shadow: 2px 2px 4px black;
+  margin-top: 5mm; 
+  margin-bottom: 5mm;
   font-family:"Roboto", sans-serif;
+  color: aliceblue;
   font-size: 40px;
+  color: aliceblue;
   text-align: center;
 }
 
 
+.produccion:hover {
+    background-color: #A91D3A;
+}
+
+.mix:hover {
+    background-color: #A91D3A;
+}
+.mastering:hover {
+    background-color: #A91D3A;
+}
+.resultados:hover {
+    background-color: #A91D3A;
+}
