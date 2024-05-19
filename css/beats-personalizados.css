@@ -103,6 +103,7 @@ hr{
     margin: auto; 
     height: 600px; 
     overflow: hidden; 
+    margin-top: 40px;
 }
 
 .sellos h4{  
@@ -199,3 +200,84 @@ hr{
 .article-resultados :hover .texto-resultados{
     display: inline-block;
 }
+
+
+    .presupuesto {
+        background-color: #f8f8f8; /* Color de fondo */
+        padding: 20px; /* Espaciado interno */
+        text-align: center; /* Alineación del contenido */
+        border: 1px solid #ddd; /* Borde */
+        border-radius: 5px; /* Borde redondeado */
+        max-width: 600px; /* Ancho máximo */
+        margin: 0 auto; /* Centrar horizontalmente */
+        margin-top: 40px;
+    }
+    
+    .presupuesto h4 {
+        font-family: "Roboto", sans-serif;
+        text-shadow: 1px 1px 2px #A91D3A;
+        font-size: 30px; /* Tamaño de fuente del título */
+        margin-bottom: 10px; /* Espacio inferior */
+    }
+    
+    .presupuesto p {
+        font-size: 16px; /* Tamaño de fuente del párrafo */
+        margin-bottom: 20px; /* Espacio inferior */
+    }
+    
+    .presupuesto form {
+        display: flex; /* Mostrar los campos del formulario en línea */
+        flex-wrap: wrap; /* Permitir que los campos del formulario se envuelvan en dispositivos pequeños */
+        justify-content: center; /* Centrar los elementos del formulario */
+    }
+    
+    .presupuesto input[type="text"],
+    .presupuesto input[type="email"] {
+        width: 100%; /* Ancho completo */
+        margin-bottom: 10px; /* Espacio inferior */
+        padding: 10px; /* Espaciado interno */
+        border: 1px solid #ddd; /* Borde */
+        border-radius: 5px; /* Borde redondeado */
+        box-sizing: border-box; /* Tamaño de caja incluyendo borde y relleno */
+    }
+    
+
+
+
+    
+
+
+
+
+.footer {
+    background-image: url(../media/consola\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer p {
+   font-family: "Roboto", sans-serif;
+   text-shadow: 1px 1px 2px #A91D3A;
+   font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.footer ul {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 0;
+
+}
+
+.footer img {
+    width: 30px; 
+    height: 30px;
+
+}
+
