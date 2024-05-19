@@ -4,19 +4,24 @@
 }
 
 
-
 .beatspro-personalizados h4{
 
     font-family: "Roboto Mono", monospace;
-    color: #A91D3A;
+    color: aliceblue;
     font-style: normal;
     font-size: 75px;
     text-align: center;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    text-shadow: 2px 2px 4px gray;
     letter-spacing: 2px;
-   
 }
 
+hr{
+    border: 0;
+    border-top: 2px solid #A91D3A; 
+    width: 50%; 
+    margin: 0 auto;
+   
+}
 
 
 .beatspro-personalizados p{
@@ -45,8 +50,9 @@
     margin: 0 auto;
     max-width: fit-content;
     margin-top: 30px;
-    
+
 }
+
 
 
 .mix{
@@ -93,30 +99,103 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    width: 80%; 
+    margin: auto; 
+    height: 600px; 
+    overflow: hidden; 
 }
 
 .sellos h4{  
-    text-shadow: 2px 2px 4px black;
+  text-shadow: 2px 2px 4px black;
   margin-top: 5mm; 
   margin-bottom: 5mm;
   font-family:"Roboto", sans-serif;
   color: aliceblue;
-  font-size: 40px;
-  color: aliceblue;
+  font-size: 30px;
   text-align: center;
 }
+
+.sellos img{
+    display: block;
+    margin: auto;
+    max-width: 100%; 
+    width: 65%; 
+    margin-top: -12px;
+}
+
 
 
 .produccion:hover {
     background-color: #A91D3A;
+    width: 80%; 
+  padding: 20px; 
 }
 
 .mix:hover {
     background-color: #A91D3A;
+    width: 80%; 
+  padding: 20px;
 }
 .mastering:hover {
     background-color: #A91D3A;
+    width: 80%; 
+    padding: 20px;
 }
+
 .resultados:hover {
     background-color: #A91D3A;
+    width: 80%; 
+    padding: 20px; 
+}
+
+.article :hover{
+    font-size: medium; 
+}
+
+.article .texto-produccion{
+    display: none;
+    font-size: medium ;
+}
+
+.article :hover .texto-produccion{
+    display: inline-block;
+}
+
+
+.article-mix :hover{
+    font-size: medium;
+}
+
+.article-mix .texto-mix{
+    display: none;
+    font-size: medium;
+}
+
+.article-mix :hover .texto-mix{
+    display: inline-block;
+}
+
+.article-mastering :hover{
+    font-size: medium;
+}
+
+.article-mastering .texto-mastering{
+    display: none;
+    font-size: medium;
+}
+
+.article-mastering :hover .texto-mastering{
+    display: inline-block;
+}
+
+.article-resultados :hover{
+    font-size: medium;
+}
+
+.article-resultados .texto-resultados{
+    display: none;
+    font-size: medium;
+}
+.article-resultados :hover .texto-resultados{
+    display: inline-block;
 }
