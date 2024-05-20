@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/head_and_nav.css">
     <link rel="stylesheet" href="../css/estilos-generales.css">
+    <link rel="stylesheet" href="../css/beats-sincopyright.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
@@ -47,20 +48,17 @@
     </header>
 <!-- cambio nav arriba-->
     <main>
-        <h1>asdasddddds</h1>
-        <h2>asdasdasd</h2>
-        <p>Lorem ipsum dolor sit amet.</p>
 
         <body>
-            <section>
+            <section class="imagen-fondo">
                 <a href="#"></a>
-                <article>
-                    <div>
-                        <img src="" alt="imagen de concierto">
-                    </div>
-                    <div>
-                        <h1>BIENVENIDO A LA EXPERIENCIA PROBEATS</h1>
-                        <p> Licencias sin limites. Creatividad y talento sin techo. Comienza hoy a trabajar tus ideas
+                <article class="recuadro"> 
+                    <div class="imagen-recuadro">
+                        <img src="../media/recitalrecuadro.jpg" alt="recital">
+                    </div>   
+                      <div class="texto-recuadro">
+                         <h1>BIENVENIDO A LA EXPERIENCIA PROBEATS</h1>
+                         <p class="contenido-recuadro"> Licencias sin limites. Creatividad y talento sin techo. Comienza hoy a trabajar tus ideas
                             con BEATS
                             SIN COPYRIGHT. Diferentes generos, diferentes ideas, diferentes formas de llevar a cabo tus
                             sueños.
@@ -69,67 +67,78 @@
                             utilizar una carpeta con mas de 50.000 pistas de distintos generos urbanos listas para
                             descargar,
                             con sonido y efectos profesionales.</p>
-                    </div>
+                     </div>
+                    
 
-                </article>
+                    </article>
             </section> <!-- Falta mejora, primera parte.-->
 
-            <section>
-                <article>
-                    <img src="#" alt="imagen-trap">
+            <section class="contenedor">
+                <article class="articulo">
+                    <img src="../media/trap2.jpg" alt="imagen-trap">
                     <div>
-                        <a href="#">TRAP</a>
+                        <a href="../pages/iniciar-sesión.html">TRAP</a>
                     </div>
                 </article>
-                <article>
-                    <img src="#" alt="imagen-pop">
+                <article class="articulo">
+                    <img src="../media/pop2.jpg" alt="imagen-pop">
                     <div>
-                        <a href="#">POP</a>
+                        <a href="../pages/iniciar-sesión.html">POP</a>
                     </div>
                 </article>
-                <article>
-                    <img src="#" alt="imagen-synthwave">
+                <article class="articulo">
+                    <img src="../media/synthwave2.jpg" alt="imagen-synthwave">
                     <div>
-                        <a href="#">SYNTHWAVE</a>
+                        <a href="../pages/iniciar-sesión.html">SYNTHWAVE</a>
                     </div>
                 </article>
-                <article>
-                    <img src="#" alt="imagen-rnb">
+                <article class="articulo">
+                    <img src="../media/rnb2.jpg" alt="imagen-rnb">
                     <div>
-                        <a href="#">RNB</a>
+                        <a href="../pages/iniciar-sesión.html">RNB</a>
                     </div>
                 </article>
 
             </section> <!-- Parte géneros sin terminar-->
 
-            <section>
-                <article>
-                    <h4><A>PLAN BRONCE</A></h4>
+            <section class="planes-general">
+                  <h2 class="titulo-planes">PLANES PROBEATS</h2>
+                  <br>
+                <div class="contenedor-planes">
+                <article class="planes">
+                    <h4 class="bronce">PLAN BRONCE</h4>
                     <p>Con el plan bronce podras acceder a tres beats mensuales de descarga directa en formato mp3,
                         mezclado
-                        y masterizado. Duracion del plan: 1 año</p>
-                    <p>$10.000</p>
-                    <button>More info</button>
+                        y masterizados. <br>
+                        <br>
+                        Duracion del plan: 1 año</p>
+                    <div>
+                    <p class="precios">$20.000</p>
+                    </div>
+                    <button>COMPRAR</button>
 
                 </article>
-                <article>
-                    <h4><A>PLAN PLATA</A></h4>
+                <article class="planes">
+                    <h4 class="plata">PLAN PLATA</h4>
                     <p>Con el plan plata podras acceder a diez beats mensuales de descarga directa,en formato mp3 y wav.
                         Mezclados y masterizados. Duracion del plan: 1 año</p>
-                    <p>$20.000</p>
-                    <button>More info</button>
+                    <div>
+                    <p class="precios">$30.000</p>
+                      </div>
+                    <button>COMPRAR</button>
                 </article>
 
-                <article>
-                    <h4><A href="">PLAN ORO</A></h4>
-                    <p>Con el plan oro, podras acceder de forma ilimitada a los beats de nuestra carpeta los cuales se
-                        van
-                        actualizando, en formato mp3 y wav. Mezclado y masterizado <br>
+                <article class="planes"> 
+                    <h4 class="oro">PLAN ORO</h4>
+                    <p>Con el plan oro, podras acceder de forma ilimitada a todos los beats de nuestra carpeta, 
+                        en formato mp3 y wav. Mezclado y masterizado <br>
                         Duracion del plan: 2 años</p>
-                    <p>$30.000</p>
-                    <button>More info</button>
+                    <div>
+                    <p class="precios">$40.000</p>
+                    </div>
+                    <button>COMPRAR</button>
                 </article>
-
+                </div>
             </section>
 
             <section>
@@ -137,7 +146,7 @@
             </section>
 
     </main>
-    <footer>
+    <footer class="footer">
         <div>
             <p>Oficina Central <br>
                 Avenida Scalabrini Ortiz 1678 <br>
