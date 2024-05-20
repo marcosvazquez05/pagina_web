@@ -99,10 +99,12 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
     width: 80%;
     margin: auto;
     height: 600px;
     overflow: hidden;
+
     margin-top: 40px;
 }
 
@@ -204,6 +206,7 @@ hr {
 }
 
 
+
 .presupuesto {
     background-color: #f8f8f8;
     /* Color de fondo */
@@ -283,9 +286,11 @@ hr {
 }
 
 .footer p {
+
     font-family: "Roboto", sans-serif;
     text-shadow: 1px 1px 2px #A91D3A;
     font-size: 30px;
+
     margin: 0;
     padding: 10px 0;
 }
@@ -298,7 +303,9 @@ hr {
 }
 
 .footer img {
+
     width: 30px;
     height: 30px;
 
 }
+

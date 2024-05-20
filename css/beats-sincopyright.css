@@ -1,3 +1,4 @@
+
 .imagen-fondo {
   width: 100%;
   /* Ancho del section al 100% del contenedor */
@@ -14,11 +15,13 @@
 
 body {
   background-color: #000;
+
 }
 
 
 
 .recuadro {
+
   background-color: black;
   color: white;
   max-width: 1000px;
@@ -86,10 +89,12 @@ body {
 
 
 .articulo {
+
   flex-basis: calc(50% - 20px);
   /* Calcula el ancho para dos elementos por fila con espacio entre ellos */
   margin: 10px;
   /* Espacio entre los elementos */
+
 
 
 }
@@ -98,6 +103,7 @@ body {
   width: 100%;
   height: auto;
 }
+
 
 .articulo a {
   font-family: "Roboto", sans-serif;
@@ -121,6 +127,7 @@ body {
 }
 
 .planes-general {
+
   background-color: #000;
 }
 
@@ -134,12 +141,14 @@ body {
   padding-bottom: 0px;
   margin: 0;
   text-align: center;
+
 }
 
 .contenedor-planes {
   display: flex;
   justify-content: center;
 }
+
 
 .planes {
   width: 200px;
@@ -153,35 +162,43 @@ body {
   /* Añade un borde sólido de 1px alrededor de cada artículo */
   padding: 10px;
   /* Añade un espacio interior alrededor del contenido del artículo */
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: stretch;
 }
 
+
 .planes .bronce {
   font-family: "Roboto", sans-serif;
   color: #656612;
   text-shadow: 1px 1px 2px white;
+
   font-size: 35px;
   text-align: center;
 }
+
 
 .planes .plata {
   font-family: "Roboto", sans-serif;
   color: #8b8b8b;
   text-shadow: 1px 1px 2px white;
+
   font-size: 35px;
   text-align: center;
 }
+
 
 .planes .oro {
   font-family: "Roboto", sans-serif;
   color: #cccf16;
   text-shadow: 1px 1px 2px white;
+
   font-size: 35px;
   text-align: center;
 }
+
 
 .planes p {
   flex: 1;
@@ -221,6 +238,7 @@ body {
 
 
 
+
 .footer {
   background-image: url(../media/consola\ 2.jpg);
   background-position: center;
@@ -232,9 +250,11 @@ body {
 }
 
 .footer p {
+
   font-family: "Roboto", sans-serif;
   text-shadow: 1px 1px 2px #A91D3A;
   font-size: 30px;
+
   margin: 0;
   padding: 10px 0;
 }
@@ -247,7 +267,9 @@ body {
 }
 
 .footer img {
+
   width: 30px;
+
   height: 30px;
 
 }

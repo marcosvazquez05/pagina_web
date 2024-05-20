@@ -87,6 +87,7 @@ a {
   transition: background-color 0.5s ease;
 }
 
+
 .boton-registro {
   background-color: #FF0000;
   color: #fff;
@@ -120,11 +121,14 @@ a {
   font-size: 20px;
   padding: 0;
 
+
 }
 
 .footer img {
+
   width: 30px;
   height: 30px;
+
 
 }
 
@@ -135,3 +139,4 @@ a {
 .footer .derechos {
   margin-bottom: 20px;
 }
+
