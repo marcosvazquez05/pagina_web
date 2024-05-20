@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 
-h1{
+h1 {
     font-size: 1.5em;
 }
+
 h2 {
     font-size: 1.4em;
 }
+
 p {
     font-size: 1em;
 }
@@ -56,6 +58,7 @@ nav li {
     justify-content: space-between;
     padding-right: 15px;
 }
+
 /* aca estoy */
 .login-boton {
     margin-right: 10px;
@@ -82,7 +85,7 @@ nav li {
 
 
 .registrar-boton a:hover {
-    background-color: #A91D3A ;
+    background-color: #A91D3A;
     transition: background-color 0.5s ease;
 }
 

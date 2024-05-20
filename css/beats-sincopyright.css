@@ -1,0 +1,275 @@
+.imagen-fondo {
+  width: 100%;
+  /* Ancho del section al 100% del contenedor */
+  max-width: 1400px;
+  /* Ancho máximo del section */
+  margin: 0 auto;
+  /* Centrar el section horizontalmente */
+  padding: 20px;
+  background-image: url(../media/consola\ 2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+body {
+  background-color: #000;
+
+}
+
+
+
+.recuadro {
+
+  background-color: black;
+  color: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0px;
+}
+
+.imagen-recuadro {
+  flex: 0 0 30%;
+  padding: 20px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.imagen-recuadro img {
+  width: 100%;
+  height: auto;
+}
+
+.texto-recuadro {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.titulo-contenedor {
+  display: flex;
+  align-items: center;
+}
+
+.texto-recuadro h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  color: #A91D3A;
+  text-shadow: 1px 1px 2px aliceblue;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0px;
+  margin: 0;
+}
+
+.contenido-recuadro {
+  flex: 1;
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 10px;
+}
+
+
+
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* Centra los elementos horizontalmente */
+  padding: 70px;
+  /* Añade un poco de relleno alrededor del artículo */
+  background-color: black;
+  /* Establece un color de fondo para el artículo */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  /* Añade una sombra al artículo */
+
+}
+
+
+.articulo {
+
+  flex-basis: calc(50% - 20px);
+  /* Calcula el ancho para dos elementos por fila con espacio entre ellos */
+  margin: 10px;
+  /* Espacio entre los elementos */
+
+
+
+}
+
+.articulo img {
+  width: 100%;
+  height: auto;
+}
+
+
+.articulo a {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px black;
+  font-size: 30px;
+}
+
+.articulo a:hover {
+  background-color: #A91D3A;
+  /* Cambia el color de fondo del enlace al hacer hover */
+  color: white;
+  /* Cambia el color del texto del enlace al hacer hover */
+  padding: 10px;
+  /* Ajusta el relleno del enlace al hacer hover */
+  display: block;
+  /* Convierte el enlace en un bloque para que ocupe todo el ancho disponible */
+  width: 100%;
+  /* Ajusta el ancho del enlace al 100% del contenedor */
+  border-radius: 10px
+}
+
+.planes-general {
+
+  background-color: #000;
+}
+
+
+.titulo-planes {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  color: #A91D3A;
+  text-shadow: 1px 1px 2px aliceblue;
+  border-bottom: 2px solid #000;
+  padding-bottom: 0px;
+  margin: 0;
+  text-align: center;
+
+}
+
+.contenedor-planes {
+  display: flex;
+  justify-content: center;
+}
+
+
+.planes {
+  width: 200px;
+  height: 400px;
+  margin-bottom: 90px;
+  /* Espacio entre los artículos */
+  flex: 1;
+  max-width: 23%;
+  margin-right: 10px;
+  border: 3px solid #ccc;
+  /* Añade un borde sólido de 1px alrededor de cada artículo */
+  padding: 10px;
+  /* Añade un espacio interior alrededor del contenido del artículo */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+
+
+.planes .bronce {
+  font-family: "Roboto", sans-serif;
+  color: #656612;
+  text-shadow: 1px 1px 2px white;
+
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.planes .plata {
+  font-family: "Roboto", sans-serif;
+  color: #8b8b8b;
+  text-shadow: 1px 1px 2px white;
+
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.planes .oro {
+  font-family: "Roboto", sans-serif;
+  color: #cccf16;
+  text-shadow: 1px 1px 2px white;
+
+  font-size: 35px;
+  text-align: center;
+}
+
+
+.planes p {
+  flex: 1;
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 1.5;
+  margin: 0;
+  padding-top: 30px;
+  text-align: center;
+}
+
+.planes .precios {
+  font-size: 40px;
+  text-shadow: 2px 2px 2px #A91D3A;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+
+.planes button {
+  align-self: center;
+  background-color: #28c708;
+  border-radius: 5px;
+  color: aliceblue;
+  text-shadow: 2px 2px 2px black;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.footer {
+  background-image: url(../media/consola\ 2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer p {
+
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 2px #A91D3A;
+  font-size: 30px;
+
+  margin: 0;
+  padding: 10px 0;
+}
+
+.footer ul {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 0;
+
+}
+
+.footer img {
+
+  width: 30px;
+
+  height: 30px;
+
+}
