@@ -1,31 +1,41 @@
 .seccion-banner {
-    background-image: url("../media/concierto.jpg"); /* Reemplaza con la ruta de tu imagen */
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex; /* Activar flexbox */
-    align-items: center; /* Alinear verticalmente */
-    justify-content: center; /* Alinear horizontalmente */
-  }
-  
-  .contenedor-texto-ritmo {
-    display: flex; /* Activar flexbox para el contenedor de texto */
-    flex-direction: column; /* Ordenar elementos en columna */
-    align-items: center; /* Alinear horizontalmente */
-    justify-content: center; /* Alinear verticalmente */
-  }
-  
-  .contenedor-texto-ritmo h1,
-  .contenedor-texto-ritmo p,
-  .contenedor-texto-ritmo button {
-    flex: 1; /* Permitir que los elementos crezcan */
-    text-align: center; /* Centrar el texto horizontalmente */
-  }
+  background-image: url("../media/concierto.jpg");
+  /* Reemplaza con la ruta de tu imagen */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  /* Activar flexbox */
+  align-items: center;
+  /* Alinear verticalmente */
+  justify-content: center;
+  /* Alinear horizontalmente */
+}
+
+.contenedor-texto-ritmo {
+  display: flex;
+  /* Activar flexbox para el contenedor de texto */
+  flex-direction: column;
+  /* Ordenar elementos en columna */
+  align-items: center;
+  /* Alinear horizontalmente */
+  justify-content: center;
+  /* Alinear verticalmente */
+}
+
+.contenedor-texto-ritmo h1,
+.contenedor-texto-ritmo p,
+.contenedor-texto-ritmo button {
+  flex: 1;
+  /* Permitir que los elementos crezcan */
+  text-align: center;
+  /* Centrar el texto horizontalmente */
+}
 
 
 
 
-  
+
 
 /* .seccion-grabando {
     display: flex; 
@@ -49,18 +59,18 @@
   } */
 
 .contenedor-texto-ritmo {
-    color: #fff;
-    text-align: center;
-  }
+  color: #fff;
+  text-align: center;
+}
 
-h1{
-    font-size: 2em;
-    margin-bottom: 10px;
+h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
 }
 
 p {
-    font-size: 1em;
-    margin-bottom: 20px;
+  font-size: 1em;
+  margin-bottom: 20px;
 }
 
 a {
@@ -77,44 +87,48 @@ a {
   transition: background-color 0.5s ease;
 }
 
-.boton-registro{
-    background-color: #FF0000;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
+
+.boton-registro {
+  background-color: #FF0000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
 }
 
-  
 
-  .footer {
-    background-image: url(../media/consola\ 2.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #fff;
-    padding: 40px 20px;
-    text-align: center;
+
+.footer {
+  background-image: url(../media/consola\ 2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding: 40px 20px;
+  text-align: center;
 }
 
 .footer p {
-   font-family: "Roboto", sans-serif;
-   text-shadow: 1px 1px 2px #A91D3A;
-   font-size: 30px;
-    margin: 0;
-    padding: 10px 0;
+  font-family: "Roboto", sans-serif;
+  text-shadow: 1px 1px 2px #A91D3A;
+  font-size: 30px;
+  margin: 0;
+  padding: 10px 0;
 }
 
 .footer ul {
-    font-family: "Roboto", sans-serif;
-    font-size: 20px;
-    padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  padding: 0;
+
 
 }
 
 .footer img {
-    width: 30px; 
-    height: 30px;
+
+  width: 30px;
+  height: 30px;
+
 
 }
 
@@ -123,5 +137,6 @@ a {
 .footer .telefonos,
 .footer .redes,
 .footer .derechos {
-    margin-bottom: 20px; 
+  margin-bottom: 20px;
 }
+
