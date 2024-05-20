@@ -1,4 +1,3 @@
-
 .imagen-fondo {
   width: 100%;
   /* Ancho del section al 100% del contenedor */
@@ -227,7 +226,8 @@ body {
   text-shadow: 2px 2px 2px black;
   padding: 10px 20px;
   text-align: center;
-  display: inline-block;/ font-size: 16px;
+  display: inline-block;
+  font-size: 16px;
   transition-duration: 0.4s;
   cursor: pointer;
 }
