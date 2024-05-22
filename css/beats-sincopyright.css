@@ -1,10 +1,7 @@
 .imagen-fondo {
   width: 100%;
-  /* Ancho del section al 100% del contenedor */
   max-width: 1400px;
-  /* Ancho máximo del section */
   margin: 0 auto;
-  /* Centrar el section horizontalmente */
   padding: 20px;
   background-image: url(../media/consola\ 2.jpg);
   background-size: cover;

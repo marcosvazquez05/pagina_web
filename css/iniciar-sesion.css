@@ -1,0 +1,147 @@
+.section {
+    background-image: url(../media/cantante\ oscuro.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.section img{
+    width: 100px; 
+    height: auto; 
+}
+
+.section h1{
+    font-family: "Roboto", sans-serif;
+  font-size: 45px;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px black;
+}
+
+
+
+.formulario{
+    background-color: #A91D3A;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+    
+}
+
+.formulario input {
+    display: block; 
+    margin: 0 auto;
+    margin-bottom: 10px; 
+    width: 100%;
+    padding: 15px;
+    font-size: 19px;
+}
+
+
+.formulario input[type="submit"] {
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+
+.login {
+    background-color: aliceblue;
+    color: black;
+    border: 2px solid #A91D3A;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login :hover ::placeholder{
+    color: white;
+}
+
+.registrarme {
+    font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  color: aliceblue;
+  text-shadow: 2px 2px 4px black;
+  margin-bottom: 20px;
+}
+
+.boton {
+    background-color: #A91D3A; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    font-size: 16px; 
+    font-weight: bold; 
+    text-transform: uppercase; 
+    transition: background-color 0.3s ease; 
+    margin-bottom: 30px;
+}
+
+.boton:hover {
+    background-color: #88172E; 
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-image: url(../media/consola\ 2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .footer p {
+    font-family: "Roboto", sans-serif;
+    text-shadow: 1px 1px 2px #A91D3A;
+    font-size: 30px;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .footer ul {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 0;
+  
+  
+  }
+  
+  .footer img {
+  
+    width: 30px;
+    height: 30px;
+  
+  
+  }
+  
+  .footer .direccion,
+  .footer .email,
+  .footer .telefonos,
+  .footer .redes,
+  .footer .derechos {
+    margin-bottom: 20px;
+  }
