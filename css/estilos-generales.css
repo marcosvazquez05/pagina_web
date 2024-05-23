@@ -2,7 +2,9 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    list-style: none;
 }
+
 
 h1 {
     font-size: 1.5em;
@@ -114,7 +116,7 @@ nav li {
 
 /* Footer */
 
-.footer {
+footer {
     background-image: url(../media/consola\ 2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -124,15 +126,15 @@ nav li {
     text-align: center;
 }
 
-.footer p {
+footer p {
     font-family: "Roboto", sans-serif;
     text-shadow: 1px 1px 2px #A91D3A;
-    font-size: 30px;
+    font-size: 20px;
     margin: 0;
     padding: 10px 0;
 }
 
-.footer ul {
+footer ul {
     font-family: "Roboto", sans-serif;
     font-size: 20px;
     padding: 0;
@@ -140,7 +142,7 @@ nav li {
 
 }
 
-.footer img {
+footer img {
 
     width: 30px;
     height: 30px;
@@ -148,10 +150,25 @@ nav li {
 
 }
 
-.footer .direccion,
-.footer .email,
-.footer .telefonos,
-.footer .redes,
-.footer .derechos {
+footer .direccion,
+footer .email,
+footer .telefonos,
+footer .redes,
+footer .derechos {
     margin-bottom: 20px;
+}
+
+footer div {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1px;
+    text-align: start;
+    margin: 0 65px 0 65px;
+    height: 65px;
+}
+
+.telefonos {
+    margin: 10px;
+    height: 100px;
 }
