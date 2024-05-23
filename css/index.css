@@ -1,5 +1,6 @@
+
 .seccion-banner {
-  background-image: url("../media/concierto.jpg");
+  background-image: url("../media/concierto3.jpg");
   /* Reemplaza con la ruta de tu imagen */
   background-size: cover;
   background-position: center;
@@ -30,12 +31,139 @@
   /* Permitir que los elementos crezcan */
   text-align: center;
   /* Centrar el texto horizontalmente */
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 3px black;
+  
+} 
+
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:black;
+}
+
+.recuadro {
+  width: 90%; /* Anchura del recuadro */
+  background-color: black;
+  padding: 100px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center; /* Para centrar el texto */
+  /* Añadimos altura para estirar verticalmente el recuadro */
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #A91D3A; /* Color del borde */
+  
+  
+}
+
+.recuadro p{
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: aliceblue;
+  text-shadow: 1px 1px 1px #A91D3A;
+  margin: 0;
+}
+
+.logo {
+  margin-left: 20px; /* Ajusta la cantidad de píxeles según sea necesario */
+}
+
+.logo img {
+  width: 150px; /* Nueva anchura del logo */
+  height: auto; /* Altura automática para mantener la proporción */
+}
+
+article {
+  width: 45%; /* Anchura de cada artículo */
+  margin-bottom: 20px;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+}
+
+article p {
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: 4px;
+  font-size: 38px;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px #A91D3A;
+  margin-top: 10px;
+  font-weight: bold;
+  text-align: center;
 }
 
 
+.youtube {
+  background-image: url(../media/estudiorojo.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 90px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.texto-container {
+  flex: 1; /* El contenedor de texto ocupa todo el espacio disponible */
+  padding-right: 20px; /* Espaciado entre el texto y el video */
+}
+
+.texto-container h2 {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  text-shadow: 5px 5px 0px black;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.texto-container p {
+  font-family: "Roboto", sans-serif;
+  color: aliceblue;
+  text-shadow: 1px 1px 2px #A91D3A;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+iframe {
+  flex: 1; /* El iframe ocupa todo el espacio disponible */
+  max-width: 50%; /* Ajustar el tamaño máximo del iframe */
+  
+}
 
 
+.mapa {
+  background-color: black; /* Color de fondo */
+  padding: 20px; /* Espaciado interno */
+  margin-bottom: 10px; /* Margen inferior */
+  display: flex; /* Usar flexbox para centrar verticalmente */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+}
 
+.mapa h2 {
+  font-family: "Roboto", sans-serif; /* Fuente del encabezado */
+  font-size: 28px; /* Tamaño del encabezado */
+  text-shadow: 2px 2px 2px #A91D3A;
+  color: aliceblue; /* Color del texto */
+  margin-bottom: 10px; /* Margen inferior del encabezado */
+  margin-right: 30px; /* Margen derecho para separar del iframe */
+}
+
+.mapa iframe {
+  width: 400px; /* Ancho del iframe */
+  height: 250px; /* Altura fija del iframe */
+  border: 2px solid #A91D3A; /* Borde sólido y color */
+}
 
 /* .seccion-grabando {
     display: flex; 
