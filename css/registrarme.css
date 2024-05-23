@@ -6,32 +6,32 @@
     text-align: center;
 }
 
-.section img{
-    width: 100px; 
-    height: auto; 
+.section img {
+    width: 100px;
+    height: auto;
 }
 
-.section h1{
+.section h1 {
     font-family: "Roboto", sans-serif;
-  font-size: 45px;
-  color: aliceblue;
-  text-shadow: 2px 2px 4px black;
+    font-size: 45px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
 }
 
 
 
-.formulario{
+.formulario {
     background-color: #A91D3A;
     padding: 20px;
     border-radius: 20px;
     display: inline-block;
-    
+
 }
 
 .formulario input {
-    display: block; 
+    display: block;
     margin: 0 auto;
-    margin-bottom: 10px; 
+    margin-bottom: 10px;
     width: 100%;
     padding: 15px;
     font-size: 19px;
@@ -45,7 +45,7 @@
     padding: 10px 50px;
     border-radius: 5px;
     cursor: pointer;
-    
+
 }
 
 
@@ -67,32 +67,33 @@
     cursor: pointer;
 }
 
-.login :hover ::placeholder{
+.login :hover ::placeholder {
     color: white;
 }
 
-.registrarme {
+.iniciar-sesion {
     font-family: "Roboto", sans-serif;
-  font-size: 25px;
-  color: aliceblue;
-  text-shadow: 2px 2px 4px black;
-  margin-bottom: 20px;
+    font-size: 25px;
+    color: aliceblue;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .boton {
-    background-color: #A91D3A; 
-    color: white; 
+    background-color: #A91D3A;
+    color: white;
     border: none;
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    cursor: pointer; 
-    font-size: 16px; 
-    font-weight: bold; 
-    text-transform: uppercase; 
-    transition: background-color 0.3s ease; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
     margin-bottom: 30px;
 }
 
 .boton:hover {
-    background-color: #88172E; 
+    background-color: #88172E;
 }

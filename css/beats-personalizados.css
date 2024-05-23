@@ -67,4 +67,150 @@
   text-align: center;
 }
 
+.sellos img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 65%;
+    margin-top: -12px;
+}
 
+
+
+.produccion:hover {
+    background-color: #A91D3A;
+    width: 80%;
+    padding: 20px;
+}
+
+.mix:hover {
+    background-color: #A91D3A;
+    width: 80%;
+    padding: 20px;
+}
+
+.mastering:hover {
+    background-color: #A91D3A;
+    width: 80%;
+    padding: 20px;
+}
+
+.resultados:hover {
+    background-color: #A91D3A;
+    width: 80%;
+    padding: 20px;
+}
+
+.article :hover {
+    font-size: medium;
+}
+
+.article .texto-produccion {
+    display: none;
+    font-size: medium;
+}
+
+.article :hover .texto-produccion {
+    display: inline-block;
+}
+
+
+.article-mix :hover {
+    font-size: medium;
+}
+
+.article-mix .texto-mix {
+    display: none;
+    font-size: medium;
+}
+
+.article-mix :hover .texto-mix {
+    display: inline-block;
+}
+
+.article-mastering :hover {
+    font-size: medium;
+}
+
+.article-mastering .texto-mastering {
+    display: none;
+    font-size: medium;
+}
+
+.article-mastering :hover .texto-mastering {
+    display: inline-block;
+}
+
+.article-resultados :hover {
+    font-size: medium;
+}
+
+.article-resultados .texto-resultados {
+    display: none;
+    font-size: medium;
+}
+
+.article-resultados :hover .texto-resultados {
+    display: inline-block;
+}
+
+
+
+.presupuesto {
+    background-color: #f8f8f8;
+    /* Color de fondo */
+    padding: 20px;
+    /* Espaciado interno */
+    text-align: center;
+    /* Alineación del contenido */
+    border: 1px solid #ddd;
+    /* Borde */
+    border-radius: 5px;
+    /* Borde redondeado */
+    max-width: 600px;
+    /* Ancho máximo */
+    margin: 0 auto;
+    /* Centrar horizontalmente */
+    margin-top: 40px;
+}
+
+.presupuesto h4 {
+    font-family: "Roboto", sans-serif;
+    text-shadow: 1px 1px 2px #A91D3A;
+    font-size: 30px;
+    /* Tamaño de fuente del título */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+}
+
+.presupuesto p {
+    font-size: 16px;
+    /* Tamaño de fuente del párrafo */
+    margin-bottom: 20px;
+    /* Espacio inferior */
+}
+
+.presupuesto form {
+    display: flex;
+    /* Mostrar los campos del formulario en línea */
+    flex-wrap: wrap;
+    /* Permitir que los campos del formulario se envuelvan en dispositivos pequeños */
+    justify-content: center;
+    /* Centrar los elementos del formulario */
+}
+
+.presupuesto input[type="text"],
+.presupuesto input[type="email"] {
+    width: 100%;
+    /* Ancho completo */
+    margin-bottom: 10px;
+    /* Espacio inferior */
+    padding: 10px;
+    /* Espaciado interno */
+    border: 1px solid #ddd;
+    /* Borde */
+    border-radius: 5px;
+    /* Borde redondeado */
+    box-sizing: border-box;
+    /* Tamaño de caja incluyendo borde y relleno */
+}

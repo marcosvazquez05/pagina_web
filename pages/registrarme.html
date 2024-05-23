@@ -12,9 +12,14 @@
         rel="stylesheet">
     <title>Beats Corporation</title>
     <link rel="shortcut icon" href="../media/icons8-favicon-64.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <link href="../css/registrarme.css" rel="stylesheet">
 </head>
 
 <body>
+
     <header>
         <div class="logo">
             <div>
@@ -23,7 +28,7 @@
                 </a>
             </div>
             <div class="logo-nombre">
-                <a href="index.html">ProBeats</a>
+                <a class="probeats-logo" href="index.html">PROBEATS</a>
             </div>
         </div>
 
@@ -41,56 +46,47 @@
         </nav>
         <div class="registrar-boton-container">
             <div class="registrar-boton">
-                <a href="iniciar-sesión.html">Inicia sesion</a>
-                <a href="iniciar-sesión.html">Registrate</a>
+                <a class="login-boton" href="iniciar-sesión.html">Iniciar sesion</a>
+                <a class="register-boton" href="registrarme.html">Registrate</a>
             </div>
         </div>
     </header>
 
     <main>
-        <section>
+        <section class="section">
+            <img src="../media/klipartz.com.png" alt="logo">
+            <h1>Registrate</h1> <br>
 
-            <p>Contacta <br> con <br> nosotros</p>
-            <div>
-                <ul>
-                    <li>
-                        <p>Telefono: 1165876547</p>
-                    </li>
-                    <li>
-                        <p>Correo electronico: info@probeats.com.ar</p>
-                    </li>
-                    <li>
-                        <p>Oficina Central: Av. Scalabrini Ortiz <br>
-                            17687MO D <br>
-                            CABA</p>
-                    </li>
-                </ul>
-                <div>
-                    <!-- aca iria el formulario -->
-                </div>
-            </div>
-
+            <form action="" class="formulario">
+                <input type="email" placeholder="Correo electrónico" class="login" required>
+                <input type="password" placeholder="Contraseña" class="login" required>
+                <input type="password" placeholder="Confirma contraseña" class="login" required>
+                <input type="submit" value="Iniciar Sesión" class="submit">
+            </form>
+            <p class="iniciar-sesion">Tienes cuenta en ProBeats?</p>
+            <a href="iniciar-sesión.html" class="boton">Tengo una cuenta</a>
+            <!-- boton para ir a registrarme -->
         </section>
     </main>
 
-    <footer>
-        <div>
-            <p>Oficina Central <br>
+    <footer class="footer">
+        <div class="direccion">
+            <p>OFICINA CENTRAL <br>
                 Avenida Scalabrini Ortiz 1678 <br>
                 7MO D <br>
                 CABA
             </p>
         </div>
 
-        <div>
-            <p>Email <br>
+        <div class="email">
+            <p>EMAIL <br>
                 info@probeats.com.ar
             </p>
         </div>
 
-        <div>
+        <div class="telefonos">
 
-            <p>Telefonos </p>
+            <p>TELEFONOS</p>
             <ul>
                 <li>1165789087</li>
                 <li>1165346542</li>
@@ -98,8 +94,8 @@
 
         </div>
 
-        <div>
-            <p>Seguinos en: <br> </p>
+        <div class="redes">
+            <p>SEGUINOS EN: <br> </p>
             <ul>
                 <li><a href="https://www.facebook.com/" target="_blank"><img
                             src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAATtJREFUSEu1lY0RwiAMhdNJ1EnUSdRJ1EnUSdRJdBT7esA9aALhznLn0Qrke/lpGGThMSxsXzyAnYhsRQQzft9xfoX5HZ5NnTXAWkRuwWjNUQD3ATjbZwHO485LR/gAuYvItTyjAbzGYRRe8oCoDFICcOBTUQ6jMAC1cbAgrJ84LyXg2Yj5Rol16TEg2DcNBhxDUi0HoBrq4oC3B6ouPoeko9IyQCv2HN+WmLSXPUBJ4qA1oD7GviUG6uFF5gGSW1YFw3oAKQ/sgQbIEma4ZhXGZJsB2kYPQBOWCoIBWlxjG4AYPHMFxWftu1EBaGTw4h9JTvnq+dC8SU4VVOYA77VW4QWkj0wD4D+rxj2AZrOL8dcgLQCvpzz2XDgWYNZBuUo8V2Zsanw9oqWsxq75sG6yCPEAKpXbXloc8AOPHlEZbVZaMAAAAABJRU5ErkJggg==" /></a>
@@ -116,10 +112,8 @@
             </ul>
         </div>
 
-        <div>
+        <div class="derechos">
             <p> &copy; 2023 BeatsCorporation.com</p>
         </div>
     </footer>
 </body>
-
-</html>

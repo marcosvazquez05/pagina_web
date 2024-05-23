@@ -1,10 +1,7 @@
 .imagen-fondo {
   width: 100%;
-  /* Ancho del section al 100% del contenedor */
   max-width: 1400px;
-  /* Ancho máximo del section */
   margin: 0 auto;
-  /* Centrar el section horizontalmente */
   padding: 20px;
   background-image: url(../media/consola\ 2.jpg);
   background-size: cover;
@@ -232,44 +229,8 @@ body {
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-.footer {
-  background-image: url(../media/consola\ 2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #fff;
-  padding: 40px 20px;
-  text-align: center;
-}
-
-.footer p {
-
-  font-family: "Roboto", sans-serif;
-  text-shadow: 1px 1px 2px #A91D3A;
-  font-size: 30px;
-
-  margin: 0;
-  padding: 10px 0;
-}
-
-.footer ul {
-  font-family: "Roboto", sans-serif;
-  font-size: 20px;
-  padding: 0;
-
-}
-
-.footer img {
-
-  width: 30px;
-
-  height: 30px;
-
+.button:hover {
+  background-color: #A91D3A;
+  transition: 0.5s;
+  box-shadow: none;
 }
