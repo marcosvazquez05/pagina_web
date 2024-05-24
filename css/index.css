@@ -1,4 +1,3 @@
-
 .seccion-banner {
   background-image: url("../media/concierto3.jpg");
   /* Reemplaza con la ruta de tu imagen */
@@ -35,35 +34,38 @@
   font-size: 60px;
   letter-spacing: 5px;
   text-shadow: 2px 2px 3px black;
-  
-} 
+
+}
 
 
 .contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:black;
+  background-color: black;
 }
 
 .recuadro {
-  width: 90%; /* Anchura del recuadro */
+  width: 90%;
+  /* Anchura del recuadro */
   background-color: black;
   padding: 100px;
   margin-bottom: 20px;
   margin-top: 20px;
-  text-align: center; /* Para centrar el texto */
+  text-align: center;
+  /* Para centrar el texto */
   /* Añadimos altura para estirar verticalmente el recuadro */
   height: 250px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #A91D3A; /* Color del borde */
-  
-  
+  border: 2px solid #A91D3A;
+  /* Color del borde */
+
+
 }
 
-.recuadro p{
+.recuadro p {
   font-family: "Roboto", sans-serif;
   font-size: 28px;
   color: aliceblue;
@@ -72,16 +74,20 @@
 }
 
 .logo {
-  margin-left: 20px; /* Ajusta la cantidad de píxeles según sea necesario */
+  margin-left: 20px;
+  /* Ajusta la cantidad de píxeles según sea necesario */
 }
 
 .logo img {
-  width: 150px; /* Nueva anchura del logo */
-  height: auto; /* Altura automática para mantener la proporción */
+  width: 150px;
+  /* Nueva anchura del logo */
+  height: auto;
+  /* Altura automática para mantener la proporción */
 }
 
 article {
-  width: 45%; /* Anchura de cada artículo */
+  width: 45%;
+  /* Anchura de cada artículo */
   margin-bottom: 20px;
 }
 
@@ -114,8 +120,10 @@ article p {
 }
 
 .texto-container {
-  flex: 1; /* El contenedor de texto ocupa todo el espacio disponible */
-  padding-right: 20px; /* Espaciado entre el texto y el video */
+  flex: 1;
+  /* El contenedor de texto ocupa todo el espacio disponible */
+  padding-right: 20px;
+  /* Espaciado entre el texto y el video */
 }
 
 .texto-container h2 {
@@ -135,34 +143,52 @@ article p {
 }
 
 iframe {
-  flex: 1; /* El iframe ocupa todo el espacio disponible */
-  max-width: 50%; /* Ajustar el tamaño máximo del iframe */
-  
+  flex: 1;
+  /* El iframe ocupa todo el espacio disponible */
+  max-width: 50%;
+  /* Ajustar el tamaño máximo del iframe */
+  border: none;
+  /* Esto reemplaza frameborder="0" */
 }
+
 
 
 .mapa {
-  background-color: black; /* Color de fondo */
-  padding: 20px; /* Espaciado interno */
-  margin-bottom: 10px; /* Margen inferior */
-  display: flex; /* Usar flexbox para centrar verticalmente */
-  justify-content: center; /* Centrar horizontalmente */
-  align-items: center; /* Centrar verticalmente */
+  background-color: black;
+  /* Color de fondo */
+  padding: 20px;
+  /* Espaciado interno */
+  margin-bottom: 10px;
+  /* Margen inferior */
+  display: flex;
+  /* Usar flexbox para centrar verticalmente */
+  justify-content: center;
+  /* Centrar horizontalmente */
+  align-items: center;
+  /* Centrar verticalmente */
 }
 
 .mapa h2 {
-  font-family: "Roboto", sans-serif; /* Fuente del encabezado */
-  font-size: 28px; /* Tamaño del encabezado */
+  font-family: "Roboto", sans-serif;
+  /* Fuente del encabezado */
+  font-size: 28px;
+  /* Tamaño del encabezado */
   text-shadow: 2px 2px 2px #A91D3A;
-  color: aliceblue; /* Color del texto */
-  margin-bottom: 10px; /* Margen inferior del encabezado */
-  margin-right: 30px; /* Margen derecho para separar del iframe */
+  color: aliceblue;
+  /* Color del texto */
+  margin-bottom: 10px;
+  /* Margen inferior del encabezado */
+  margin-right: 30px;
+  /* Margen derecho para separar del iframe */
 }
 
 .mapa iframe {
-  width: 400px; /* Ancho del iframe */
-  height: 250px; /* Altura fija del iframe */
-  border: 2px solid #A91D3A; /* Borde sólido y color */
+  width: 400px;
+  /* Ancho del iframe */
+  height: 250px;
+  /* Altura fija del iframe */
+  border: 2px solid #A91D3A;
+  /* Borde sólido y color */
 }
 
 /* .seccion-grabando {
@@ -225,19 +251,19 @@ a {
 }
 
 .boton {
-  background-color: #A91D3A; 
-  color: white; 
+  background-color: #A91D3A;
+  color: white;
   border: none;
-  padding: 10px 20px; 
-  border-radius: 5px; 
-  cursor: pointer; 
-  font-size: 16px; 
-  font-weight: bold; 
-  text-transform: uppercase; 
-  transition: background-color 0.3s ease; 
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
   margin-bottom: 30px;
 }
 
 .boton:hover {
-  background-color: #88172E; 
+  background-color: #88172E;
 }
