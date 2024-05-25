@@ -97,3 +97,9 @@
 .boton:hover {
     background-color: #88172E;
 }
+
+/* errores form */
+
+.error {
+    color: blue;
+}
