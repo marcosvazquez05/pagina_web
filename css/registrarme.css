@@ -97,3 +97,10 @@
 .boton:hover {
     background-color: #88172E;
 }
+
+/* errores form */
+
+.error {
+    color: #000000;
+    font-size: 1.50em;
+}
