@@ -5,80 +5,73 @@
 
 
 .beatspro-personalizados h4 {
-
     font-family: "Roboto Mono", monospace;
     color: aliceblue;
     font-style: normal;
-    font-size: 75px;
+    font-size: 4.6875em; 
     text-align: center;
-    text-shadow: 2px 2px 4px gray;
-    letter-spacing: 2px;
+    text-shadow: 0.03125em 0.03125em 0.0625em gray; 
+    letter-spacing: 0.025em; 
+    max-width: 90%; 
+    margin: 0 auto; 
 }
 
 hr {
     border: 0;
-    border-top: 2px solid #A91D3A;
+    border-top: 0.125em solid #A91D3A; 
     width: 50%;
     margin: 0 auto;
-
 }
+
+    
 
 
 .beatspro-personalizados p {
-    max-width: 1000px;
+    max-width: 62.5em; 
     margin-left: auto;
     margin-right: auto;
     font-family: "Roboto", sans-serif;
     color: #faebd7;
     font-style: italic;
-    font-size: 30px;
+    font-size: 1.875em; 
     text-align: center;
-    max-width: 850px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 70%; 
 }
 
 .produccion {
-
     font-family: "Roboto", sans-serif;
     color: aliceblue;
-    font-size: 30px;
-    color: aliceblue;
+    font-size: 1.875em; 
     text-align: center;
-    border: 2px solid #A91D3A;
-    padding: 10px;
+    border: 0.125em solid #A91D3A; 
+    padding: 0.625em;
     margin: 0 auto;
     max-width: fit-content;
-    margin-top: 30px;
-
+    margin-top: 1.875em; 
 }
-
-
 
 .mix {
     font-family: "Roboto", sans-serif;
     color: aliceblue;
-    font-size: 30px;
-    color: aliceblue;
+    font-size: 1.875em; 
     text-align: center;
-    border: 2px solid #A91D3A;
-    padding: 10px;
+    border: 0.125em solid #A91D3A; 
+    padding: 0.625em; 
     margin: 0 auto;
     max-width: fit-content;
-    margin-top: 30px;
+    margin-top: 1.875em; 
 }
 
 .mastering {
     font-family: "Roboto", sans-serif;
     color: aliceblue;
-    font-size: 30px;
-    color: aliceblue;
     text-align: center;
-    border: 2px solid #A91D3A;
-    padding: 10px;
+    font-size: 1.875em; 
+    border: 0.125em solid #A91D3A; 
+    padding: 0.625em; 
     margin: 0 auto;
     max-width: fit-content;
-    margin-top: 30px;
+    margin-top: 1.875em; 
 }
 
 .resultados {
@@ -94,6 +87,18 @@ hr {
     margin-top: 30px;
 }
 
+.resultados {
+    font-family: "Roboto", sans-serif;
+    color: aliceblue;
+    font-size: 1.875em; 
+    text-align: center;
+    border: 0.125em solid #A91D3A; 
+    padding: 0.625em; 
+    margin: 0 auto;
+    max-width: fit-content;
+    margin-top: 1.875em; 
+}
+
 .sellos {
     background-image: url(../media/estudiorojo.jpg);
     background-repeat: no-repeat;
@@ -105,16 +110,16 @@ hr {
     height: 600px;
     overflow: hidden;
 
-    margin-top: 40px;
+    margin-top: 2.5em;
 }
 
 .sellos h4 {
-    text-shadow: 2px 2px 4px black;
-    margin-top: 5mm;
-    margin-bottom: 5mm;
+    text-shadow: 0.125em 0.125em 0.25em black; 
+    margin-top: 0.3125em; 
+    margin-bottom: 0.3125em; 
     font-family: "Roboto", sans-serif;
     color: aliceblue;
-    font-size: 30px;
+    font-size: 1.875em; 
     text-align: center;
 }
 
@@ -122,10 +127,9 @@ hr {
     display: block;
     margin: auto;
     max-width: 100%;
-    width: 65%;
-    margin-top: -12px;
+    width: 65%; 
+    margin-top: -0.75em; 
 }
-
 
 
 .produccion:hover {
@@ -209,59 +213,72 @@ hr {
 
 .presupuesto {
     background-color: #f8f8f8;
-    /* Color de fondo */
-    padding: 20px;
-    /* Espaciado interno */
+    padding: 1.25em; 
     text-align: center;
-    /* Alineación del contenido */
-    border: 1px solid #ddd;
-    /* Borde */
-    border-radius: 5px;
-    /* Borde redondeado */
-    max-width: 600px;
-    /* Ancho máximo */
+    border: 0.0625em solid #ddd; 
+    border-radius: 0.3125em; 
+    max-width: 37.5em; 
     margin: 0 auto;
-    /* Centrar horizontalmente */
-    margin-top: 40px;
+    margin-top: 2.5em; 
+    margin-bottom: 2.5em; 
 }
 
 .presupuesto h4 {
     font-family: "Roboto", sans-serif;
-    text-shadow: 1px 1px 2px #A91D3A;
-    font-size: 30px;
-    /* Tamaño de fuente del título */
-    margin-bottom: 10px;
-    /* Espacio inferior */
+    text-shadow: 0.0625em 0.0625em 0.125em #A91D3A; 
+    font-size: 1.875em; 
+    margin-bottom: 0.625em; 
 }
 
 .presupuesto p {
-    font-size: 16px;
-    /* Tamaño de fuente del párrafo */
-    margin-bottom: 20px;
-    /* Espacio inferior */
+    font-size: 1em; 
+    margin-bottom: 1.25em; 
 }
 
 .presupuesto form {
     display: flex;
-    /* Mostrar los campos del formulario en línea */
     flex-wrap: wrap;
-    /* Permitir que los campos del formulario se envuelvan en dispositivos pequeños */
     justify-content: center;
-    /* Centrar los elementos del formulario */
 }
 
 .presupuesto input[type="text"],
 .presupuesto input[type="email"] {
     width: 100%;
-    /* Ancho completo */
-    margin-bottom: 10px;
-    /* Espacio inferior */
-    padding: 10px;
-    /* Espaciado interno */
-    border: 1px solid #ddd;
-    /* Borde */
-    border-radius: 5px;
-    /* Borde redondeado */
+    margin-bottom: 0.625em; 
+    padding: 0.625em; 
+    border: 0.0625em solid #ddd; 
+    border-radius: 0.3125em; 
     box-sizing: border-box;
-    /* Tamaño de caja incluyendo borde y relleno */
+}
+
+.presupuesto input[type="checkbox"] {
+    margin-top: 0.05em;
+    margin-bottom: 0.05em;
+}
+
+#suscripcion {
+    vertical-align: middle;
+    margin-right: 0.3em; 
+}
+
+
+.presupuesto select {
+    width: 100%; 
+    margin-bottom: 0.625em; 
+    margin-top: 0.625em;
+    padding: 0.625em; 
+    border: 0.0625em solid #ddd; 
+    border-radius: 0.3125em; 
+    box-sizing: border-box;
+}
+
+.presupuesto input[type="file"] {
+    margin-bottom: 0.625em; 
+    margin-top: 0.735em;
+}
+
+.presupuesto input[type="submit"] {
+    width: auto; 
+    padding: 0.625em 1em; 
+    margin-left: 0.5em; 
 }

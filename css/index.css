@@ -31,10 +31,9 @@
   text-align: center;
   /* Centrar el texto horizontalmente */
   font-family: "Roboto", sans-serif;
-  font-size: 60px;
-  letter-spacing: 5px;
-  text-shadow: 2px 2px 3px black;
-
+  font-size: 3.75em; 
+  letter-spacing: 0.125em; 
+  text-shadow: 0.125em 0.125em 0.1875em black; 
 }
 
 
@@ -47,48 +46,45 @@
 
 .recuadro {
   width: 90%;
-  /* Anchura del recuadro */
   background-color: black;
-  padding: 100px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  padding: 6.25em; 
+  margin-bottom: 1.25em; 
+  margin-top: 1.25em; 
   text-align: center;
-  /* Para centrar el texto */
-  /* Añadimos altura para estirar verticalmente el recuadro */
-  height: 250px;
+  
+  height: 15.625em; 
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid #A91D3A;
-  /* Color del borde */
+  border: 0.125em solid #A91D3A; 
+ 
 
 
 }
 
 .recuadro p {
   font-family: "Roboto", sans-serif;
-  font-size: 28px;
+  font-size: 1.75em; 
   color: aliceblue;
-  text-shadow: 1px 1px 1px #A91D3A;
+  text-shadow: 0.0625em 0.0625em 0.0625em #A91D3A; 
   margin: 0;
 }
 
 .logo {
-  margin-left: 20px;
-  /* Ajusta la cantidad de píxeles según sea necesario */
+  margin-left: 1.25em; 
+  
 }
 
 .logo img {
-  width: 150px;
-  /* Nueva anchura del logo */
+  width: 9.375em; 
   height: auto;
-  /* Altura automática para mantener la proporción */
+  
 }
 
 article {
   width: 45%;
-  /* Anchura de cada artículo */
-  margin-bottom: 20px;
+  
+  margin-bottom: 1.25em; 
 }
 
 article img {
@@ -98,11 +94,11 @@ article img {
 
 article p {
   font-family: "Roboto Mono", monospace;
-  letter-spacing: 4px;
-  font-size: 38px;
+  letter-spacing: 0.25em; 
+  font-size: 2.375em; 
   color: aliceblue;
-  text-shadow: 1px 1px 2px #A91D3A;
-  margin-top: 10px;
+  text-shadow: 0.0625em 0.0625em 0.125em #A91D3A; 
+  margin-top: 0.625em; 
   font-weight: bold;
   text-align: center;
 }
@@ -113,33 +109,33 @@ article p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 90px;
-  margin-bottom: 10px;
-  margin-top: 10px;
+  padding: 5.625em; 
+  margin-bottom: 0.625em; 
+  margin-top: 0.625em; 
   display: flex;
 }
 
 .texto-container {
   flex: 1;
-  /* El contenedor de texto ocupa todo el espacio disponible */
-  padding-right: 20px;
-  /* Espaciado entre el texto y el video */
+  
+  padding-right: 1.25em; 
+ 
 }
 
 .texto-container h2 {
   font-family: "Roboto", sans-serif;
   color: aliceblue;
-  text-shadow: 5px 5px 0px black;
-  font-size: 40px;
-  margin-bottom: 10px;
+  text-shadow: 0.1125em 0.1125em 0px black; 
+  font-size: 2.5em; 
+  margin-bottom: 0.625em; 
 }
 
 .texto-container p {
   font-family: "Roboto", sans-serif;
   color: aliceblue;
-  text-shadow: 1px 1px 2px #A91D3A;
-  font-size: 28px;
-  margin-bottom: 10px;
+  text-shadow: 0.0425em 0.0425em 0.025em #A91D3A; 
+  font-size: 1.75em; 
+  margin-bottom: 0.625em; 
 }
 
 iframe {
@@ -155,40 +151,28 @@ iframe {
 
 .mapa {
   background-color: black;
-  /* Color de fondo */
-  padding: 20px;
-  /* Espaciado interno */
-  margin-bottom: 10px;
-  /* Margen inferior */
+  padding: 1.25em; 
+  margin-bottom: 0.625em; 
   display: flex;
-  /* Usar flexbox para centrar verticalmente */
   justify-content: center;
-  /* Centrar horizontalmente */
   align-items: center;
-  /* Centrar verticalmente */
+  
 }
 
 .mapa h2 {
   font-family: "Roboto", sans-serif;
-  /* Fuente del encabezado */
-  font-size: 28px;
-  /* Tamaño del encabezado */
-  text-shadow: 2px 2px 2px #A91D3A;
+  font-size: 1.75em; 
+  text-shadow: 0.025em 0.025em 0.125em #A91D3A; 
   color: aliceblue;
-  /* Color del texto */
-  margin-bottom: 10px;
-  /* Margen inferior del encabezado */
-  margin-right: 30px;
-  /* Margen derecho para separar del iframe */
+  margin-bottom: 0.625em; 
+  margin-right: 1.875em; 
+ 
 }
 
 .mapa iframe {
-  width: 400px;
-  /* Ancho del iframe */
-  height: 250px;
-  /* Altura fija del iframe */
-  border: 2px solid #A91D3A;
-  /* Borde sólido y color */
+  width: 25em; 
+  height: 15.625em; 
+  border: 0.125em solid #A91D3A; 
 }
 
 /* .seccion-grabando {
@@ -219,12 +203,12 @@ iframe {
 
 h1 {
   font-size: 2em;
-  margin-bottom: 10px;
+  margin-bottom: 0.625em; 
 }
 
 p {
   font-size: 1em;
-  margin-bottom: 20px;
+  margin-bottom: 1.25em; 
 }
 
 a {
@@ -245,7 +229,7 @@ a {
 .boton-registro {
   background-color: #FF0000;
   color: #fff;
-  padding: 10px 20px;
+  padding: 0.625em 1.25em; 
   border: none;
   cursor: pointer;
 }
@@ -254,16 +238,18 @@ a {
   background-color: #A91D3A;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.625em 1.25em; 
+  border-radius: 0.3125em; 
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1em; 
   font-weight: bold;
   text-transform: uppercase;
   transition: background-color 0.3s ease;
-  margin-bottom: 30px;
+  margin-bottom: 1.875em; 
 }
 
 .boton:hover {
   background-color: #88172E;
 }
+
+
