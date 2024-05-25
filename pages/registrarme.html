@@ -16,6 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
     <link href="../css/registrarme.css" rel="stylesheet">
+
 </head>
 
 <body>
@@ -58,16 +59,22 @@
             <h1>Registrate</h1> <br>
 
             <form class="formulario">
-                <input type="email" placeholder="Correo electrónico" class="login" required>
-                <input type="password" placeholder="Contraseña" class="login" required>
-                <input type="password" placeholder="Confirma contraseña" class="login" required>
-                <input type="submit" value="Iniciar Sesión" class="submit">
+                <input type="email" placeholder="Correo electrónico" class="login" id="email">
+                <div class="error" id="error-email"></div>
+
+                <input type="password" placeholder="Contraseña" class="login" id="password">
+                <div class="error" id="error-password"></div>
+
+                <input type="password" placeholder="Confirma contraseña" class="password" id="password2">
+                <div class="error" id="error-password2"></div>
+                
+                <button type="button" class="submit" id="btn-send">Registrarse</button> 
             </form>
             <p class="iniciar-sesion">Tienes cuenta en ProBeats?</p>
             <a href="iniciar-sesión.html" class="boton">Tengo una cuenta</a>
-            <!-- boton para ir a registrarme -->
         </section>
     </main>
+    <script src="../js/form-registrarme.js"></script>
 
     <footer class="footer">
         <div class="direccion">
