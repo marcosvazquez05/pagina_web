@@ -11,7 +11,6 @@ document.getElementById('btn-send').addEventListener('click', function() {
 
     let isValid = true;
 
-            // Validar correo electrónico
             if (!email.value) {
                 errorEmail.textContent = 'El correo electrónico es requerido.';
                 isValid = false;
@@ -20,7 +19,6 @@ document.getElementById('btn-send').addEventListener('click', function() {
                 isValid = false;
             }
 
-            // Validar contraseña
             if (!password.value) {
                 errorPassword.textContent = 'La contraseña es requerida.';
                 isValid = false;
@@ -29,16 +27,12 @@ document.getElementById('btn-send').addEventListener('click', function() {
                 isValid = false;
             }
 
-            // Validar confirmación de contraseña
             if (password2.value !== password.value) {
                 errorPassword2.textContent = 'Las contraseñas no coinciden.';
                 isValid = false;
             }
 
-            // Si el formulario es válido, puedes proceder con el envío
             if (isValid) {
                 alert('Formulario enviado correctamente.');
-                // Aquí puedes enviar el formulario, por ejemplo:
-                // document.querySelector('.formulario').submit();
             }
         });
