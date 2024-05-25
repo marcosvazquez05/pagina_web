@@ -101,5 +101,6 @@
 /* errores form */
 
 .error {
-    color: blue;
+    color: #000000;
+    font-size: 1.50em;
 }

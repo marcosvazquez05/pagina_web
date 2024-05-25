@@ -1,26 +1,44 @@
-let btnSend = document.querySelector("#btn-send");
-
-btnSend.addEventListener("click", function() {
-    let email = document.querySelector("#email");
-    let password = document.querySelector("#password");
-    let password2 = document.querySelector("#password2");
-    // se crea una variable para cada input del form
-    let emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    // variable para comprobar email
-});
-
-
-if(emailRegex.test(email.value)) {
+document.getElementById('btn-send').addEventListener('click', function() {
+    // Obtener los elementos
+    const email = document.getElementById('email');
+    const password = document.getElementById('password');
+    const password2 = document.getElementById('password2');
+    
+    const errorEmail = document.getElementById('error-email');
+    const errorPassword = document.getElementById('error-password');
+    const errorPassword2 = document.getElementById('error-password2');
 
 
+    let isValid = true;
 
-    document.querySelector("#error-email").innerHTML ="El email no tiene un formato correcto"
-}
-if(password.value.trim()=="") {
+            // Validar correo electrónico
+            if (!email.value) {
+                errorEmail.textContent = 'El correo electrónico es requerido.';
+                isValid = false;
+            } else if (!/\S+@\S+\.\S+/.test(email.value)) {
+                errorEmail.textContent = 'El formato del correo electrónico no es válido.';
+                isValid = false;
+            }
 
-    document.querySelector("#error-password").innerHTML ="La contraseña no es correcta"
-}
-if(password2.value.trim()=="") {
+            // Validar contraseña
+            if (!password.value) {
+                errorPassword.textContent = 'La contraseña es requerida.';
+                isValid = false;
+            } else if (password.value.length < 6) {
+                errorPassword.textContent = 'La contraseña debe tener al menos 6 caracteres.';
+                isValid = false;
+            }
 
-    document.querySelector("#error-password2").innerHTML ="La contraseña no es igual"
-}
+            // Validar confirmación de contraseña
+            if (password2.value !== password.value) {
+                errorPassword2.textContent = 'Las contraseñas no coinciden.';
+                isValid = false;
+            }
+
+            // Si el formulario es válido, puedes proceder con el envío
+            if (isValid) {
+                alert('Formulario enviado correctamente.');
+                // Aquí puedes enviar el formulario, por ejemplo:
+                // document.querySelector('.formulario').submit();
+            }
+        });
