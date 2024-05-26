@@ -1,40 +1,42 @@
+
 .section {
     background-image: url(../media/cantante\ oscuro.jpg);
     background-size: cover;
     background-position: center;
-    padding: 50px;
+    padding: 3.125em; 
     text-align: center;
 }
 
+
 .section img {
-    width: 100px;
+    width: 6.25em; 
     height: auto;
 }
 
+
 .section h1 {
     font-family: "Roboto", sans-serif;
-    font-size: 45px;
+    font-size: 2.8125em; 
     color: aliceblue;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 0.125em 0.125em 0.25em black; 
 }
-
 
 
 .formulario {
     background-color: #A91D3A;
-    padding: 20px;
-    border-radius: 20px;
+    padding: 1.25em; 
+    border-radius: 1.25em; 
     display: inline-block;
-
 }
+
 
 .formulario input {
     display: block;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 0.625em; 
     width: 100%;
-    padding: 15px;
-    font-size: 19px;
+    padding: 0.9375em; 
+    font-size: 1.1875em; 
 }
 
 
@@ -42,65 +44,63 @@
     background-color: black;
     color: aliceblue;
     border: none;
-    padding: 10px 50px;
-    border-radius: 5px;
+    padding: 0.625em 3.125em; 
+    border-radius: 0.3125em; 
     cursor: pointer;
-
 }
 
 
 .login {
     background-color: aliceblue;
     color: black;
-    border: 2px solid #A91D3A;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 10px;
+    border: 0.125em solid #A91D3A;
+    padding: 0.625em; 
+    border-radius: 0.3125em; 
+    margin-bottom: 0.625em; 
 }
+
 
 .submit {
     background-color: red;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.625em 1.25em; 
+    border-radius: 0.3125em; 
     cursor: pointer;
 }
 
-.login :hover ::placeholder {
-    color: white;
-}
 
 .iniciar-sesion {
     font-family: "Roboto", sans-serif;
-    font-size: 25px;
+    font-size: 1.5625em; 
     color: aliceblue;
-    text-shadow: 2px 2px 4px black;
-    margin-bottom: 20px;
-    margin-top: 10px;
+    text-shadow: 0.125em 0.125em 0.25em black; 
+    margin-bottom: 1.25em; 
+    margin-top: 0.625em; 
 }
+
 
 .boton {
     background-color: #A91D3A;
     color: white;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.625em 1.25em; 
+    border-radius: 0.3125em; 
     cursor: pointer;
-    font-size: 16px;
+    font-size: 1em; 
     font-weight: bold;
     text-transform: uppercase;
     transition: background-color 0.3s ease;
-    margin-bottom: 30px;
+    margin-bottom: 1.875em; 
 }
+
 
 .boton:hover {
     background-color: #88172E;
 }
 
-/* errores form */
 
 .error {
     color: #000000;
-    font-size: 1.50em;
+    font-size: 1.50em; 
 }

@@ -142,14 +142,24 @@
         <p>Envianos tus datos y en 24hs un asesor se contactara contigo para comenzar a proyectar tus ideas de forma
             profesional y solida. <br>Te garantizamos tu mejor trabajo musical</p>
 
-        <div>
-            <form>
-                <input type="text" name="nombre" placeholder="Nombre" required>
-                <input type="text" name="apellido" placeholder="Apellido" required>
-                <input type="email" name="email" placeholder="Correo Electronico" required>
-                <input type="submit" value="Enviar">
-            </form>
-        </div>
+            <div>
+                <form id="contactForm" action="">
+                    <input type="text" name="nombre" placeholder="Nombre" required>
+                    <input type="text" name="apellido" placeholder="Apellido" required>
+                    <input type="email" name="email" placeholder="Correo Electrónico" required>
+                    <input type="checkbox" name="suscripcion" id="suscripcion"> <!-- Checkbox -->
+                    <label for="suscripcion">Suscribirse para obtener novedades</label>
+                    <select name="motivo" id="motivo"> <!-- Select -->
+                        <option value="">Seleccione un genero musical</option>
+                        <option value="trap">TRAP</option>
+                        <option value="synthwave">SYNTHWAVE</option>
+                        <option value="pop">POP</option>
+                        <option value="rnb">RNB</option>
+                    </select>
+                    <input type="file" name="adjunto" id="adjunto"> 
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
     </section>
 
     <section>
