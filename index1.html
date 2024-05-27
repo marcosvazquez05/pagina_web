@@ -15,8 +15,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
-    <link href="../css/registrarme.css" rel="stylesheet">
-
+    <link href="../css/index.css" rel="stylesheet">
 </head>
 
 <body>
@@ -37,11 +36,11 @@
             <div class="nav-container">
                 <ul class="apartados">
 
-                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/index.html">Inicio</a></li>
                     <li><a href="../pages/beats-sin-copyright.html">Beats sin copyright</a></li>
                     <li><a href="../pages/beats-personalizados.html">Beats personalizados</a></li>
 
-                    <!-- falta el boton mas info -->
+
                 </ul>
             </div>
         </nav>
@@ -52,30 +51,78 @@
             </div>
         </div>
     </header>
-
+    <!---CAMBIOS ARRIBA NAV-->
+    <section class="seccion-banner">
+        <div class="boton-transaccion-container">
+            <div class="contenedor-texto-ritmo">
+                <h1>ENCUENTRA</h1>
+                <h1>TU RITMO</h1>
+                <p>Con PROBEATS</p>
+                <a href="registrarme.html" class="boton">REGISTRARME</a>
+            </div>
+        </div>
+    </section>
     <main>
-        <section class="section">
-            <img src="../media/klipartz.com.png" alt="logo">
-            <h1>Registrate</h1> <br>
 
-            <form class="formulario">
-                <input type="email" placeholder="Correo electrónico" class="login" id="email">
-                <div class="error" id="error-email"></div>
 
-                <input type="password" placeholder="Contraseña" class="login" id="password">
-                <div class="error" id="error-password"></div>
+        <section class="contenedor">
+            <div class="recuadro">
+                <p>
+                    ¿Queres darle un toque unico a tus proyectos musicales?
+                    En PROBEATS te ofrecemos venta de beats musicales personalizados y sin derechos de autor.
+                    Contamos con una gran libreria con variados generos. Entre ellos el pop y el trap.
+                    Encontraras el sonido perfecto para tus proyectos.
+                    Explora nuestras opciones y encuentra hoy mismo tu ritmo ideal PROBEATS. Bienvenido!
+                </p>
+                <div class="logo">
+                    <img src="../media/klipartz.com.png" alt="logo">
+                </div>
+            </div>
+            <article>
+                <img src="../media/trap.jpg" alt="Trapero">
+                <p>-TRAP-</p>
+            </article>
+            <article>
+                <img src="../media/pop.jpg" alt="Cantante">
+                <p>-POP-</p>
+            </article>
+            <article>
+                <img src="../media/rnb.jpg" alt="mano tocando una ventana">
+                <p>-RNB-</p>
+            </article>
+            <article>
+                <img src="../media/synthwave.jpg" alt="Concierto retro">
+                <p>-SYNTHWAVE-</p>
+            </article>
 
-                <input type="password" placeholder="Confirma contraseña" class="password" id="password2">
-                <div class="error" id="error-password2"></div>
-                
-                <button type="button" class="submit" id="btn-send">Registrarse</button> 
-            </form>
-            <p class="iniciar-sesion">Tienes cuenta en ProBeats?</p>
-            <a href="iniciar-sesión.html" class="boton">Tengo una cuenta</a>
+
         </section>
-    </main>
-    <script src="../js/form-registrarme.js"></script>
 
+        <section class="youtube">
+            <div class="texto-container">
+                <h2>Escucha nuestros ultimos lanzamientos en nuestro canal oficial de Youtube</h2>
+                <p>Unite a nuestro canal donde subimos diariamente nuevas muestras que pueden servirte
+                    para referenciarte o para inspirarte. Te estamos esperando
+                </p>
+            </div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/guFj_i2MO0o?si=4a5IQ3r9lVQMMe2E"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+
+        <section class="mapa">
+            <h2>Podes encontrar las oficinas PROBEATS en</h2>
+
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5482973627395!2d-58.42687402341815!3d-34.59029435679091!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca78a31d2fe3%3A0xf2cac22a93f09267!2sAv.%20Ra%C3%BAl%20Scalabrini%20Ortiz%201678%2C%20C1414DOQ%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1715294582868!5m2!1ses-419!2sar"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+    </main>
     <footer class="footer">
         <div>
             <p>Oficina Central <br>
@@ -124,3 +171,6 @@
         </div>
     </footer>
 </body>
+
+
+</html>
